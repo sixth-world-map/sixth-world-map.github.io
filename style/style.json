@@ -9,11 +9,20 @@
       "minZoom": 0,
       "maxZoom": 14,
       "maxzoom": 5
+    },
+    "sat": {
+      "type": "raster",
+      "tiles": [
+        "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}"
+      ],
+      "minzoom": 0,
+      "maxzoom": 14
     }
   },
   "sprite": "",
   "glyphs": "https://orangemug.github.io/font-glyphs/glyphs/{fontstack}/{range}.pbf",
   "layers": [
+    {"id": "sar", "type": "raster", "source": "sat"},
     {"id": "nat", "type": "line", "source": "nat", "source-layer": "nat_en"}
   ],
   "id": "lbw7s0zbz"
