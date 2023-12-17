@@ -14,7 +14,7 @@
   "sprite": "",
   "glyphs": "https://orangemug.github.io/font-glyphs/glyphs/{fontstack}/{range}.pbf",
   "layers": [
-    {"id": "nat", "type": "line", "source": "nat", "source-layer": "nat84_3"}
+    {"id": "nat", "type": "line", "source": "nat", "source-layer": "nat_en"}
   ],
   "id": "lbw7s0zbz"
 }
