@@ -2,9 +2,25 @@
   "version": 8,
   "name": "Empty Style",
   "metadata": {"maputnik:renderer": "mbgljs"},
-  "sources": {},
+  "sources": {
+    "sat": {
+      "type": "raster",
+      "tiles": [
+        "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}"
+      ],
+      "minzoom": 0,
+      "maxzoom": 14
+    }
+  },
   "sprite": "",
   "glyphs": "https://orangemug.github.io/font-glyphs/glyphs/{fontstack}/{range}.pbf",
-  "layers": [{"id": "background", "type": "background"}],
+  "layers": [
+    {
+      "id": "sar",
+      "type": "raster",
+      "source": "sat",
+      "paint": {"raster-saturation": -1}
+    }
+  ],
   "id": "lbw7s0zbz"
 }
