@@ -1,0 +1,27 @@
+{
+  "tiles": [
+    "https://sixth-world-map.github.io/tiles/dem/{z}/{x}/{y}.jpeg"
+  ],
+  "name": "dem",
+  "format": "jpeg",
+  "basename": "dem",
+  "id": "dem",
+  "description": "dem",
+  "version": "1",
+  "type": "baselayer",
+  "attribution": "",
+  "minzoom": 1,
+  "maxzoom": 5,
+  "bounds": [
+    -180,
+    -85.05112877980659,
+    180,
+    85.0511287798066
+  ],
+  "center": [
+    0,
+    0,
+    6
+  ],
+  "tilejson": "2.0.0"
+}
