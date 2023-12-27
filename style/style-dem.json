@@ -1,9 +1,9 @@
 {
   "tiles": [
-    "https://sixth-world-map.github.io/tiles/dem/{z}/{x}/{y}.jpeg"
+    "https://sixth-world-map.github.io/tiles/dem/{z}/{x}/{y}.jpg"
   ],
   "name": "dem",
-  "format": "jpeg",
+  "format": "jpg",
   "basename": "dem",
   "id": "dem",
   "description": "dem",
